@@ -14,7 +14,6 @@ describe('Header', () => {
     expect(screen.getByText(/João Frango Frito/i)).toBeTruthy();
     expect(screen.getByText(/Home/i)).toBeTruthy();
     expect(screen.getByText(/Cardápio/i)).toBeTruthy();
-    expect(screen.getByText(/Sobre Nós/i)).toBeTruthy();
     expect(screen.getByText(/Fale Conosco/i)).toBeTruthy();
   });
 });

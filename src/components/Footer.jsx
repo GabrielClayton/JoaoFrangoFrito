@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/joaofrango.png';
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
           <img src={logo} alt="João Frango Frito" />
         </div>
         <nav className="footer-nav">
-          <a href="/sobre">Sobre nós</a>
+          <Link to="/sobre">Sobre nós</Link>
         </nav>
         <p>&copy; 2026-27 João Frango Frito. Todos os direitos reservados</p>
       </div>
