@@ -9,7 +9,7 @@ function SobreNos() {
           entregar qualidade, tradição e gosto caseiro em cada mordida.
         </p>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="hero-banner">
           <div className="hero-text">
             <h3>Nossa história</h3>
@@ -21,7 +21,7 @@ function SobreNos() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
