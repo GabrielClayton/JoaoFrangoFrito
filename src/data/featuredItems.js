@@ -1,32 +1,27 @@
-import frangoImage from '../assets/frango1.jpg';
+import combo1 from '../assets/combo1.png';
+import combo2 from '../assets/combo2.png';
+import combo3 from '../assets/combo3.png';
 import notAvailableImage from '../assets/no_image_available.jpg';
 
 const featuredItems = [
   {
-    name: 'Frango Crocante',
-    price: 'R$ 99,99',
-    image: frangoImage || notAvailableImage,
+    name: 'Combo Individual',
+    description: 'Sabor e conveniência em um combo!',
+    price: 'R$ ??,??',
+    image: combo1 || notAvailableImage,
   },
   {
-    name: 'Porção Especial',
-    price: 'R$ 49,99',
-    image: notAvailableImage,
+    name: 'Combo Casal',
+    description: 'Perfeito para compartilhar e multiplicar sabores!',
+    price: 'R$ ??,??',
+    image: combo2 || notAvailableImage,
   },
   {
     name: 'Combo Família',
-    price: 'R$ 149,99',
-    image: notAvailableImage,
-  },
-  {
-    name: 'Coxinha Dourada',
-    price: 'R$ 19,99',
-    image: notAvailableImage,
-  },
-  {
-    name: 'Asas Apimentadas',
-    price: 'R$ 29,99',
-    image: notAvailableImage,
-  },
+    description: 'Ideal para reunir a família!',
+    price: 'R$ ??,??',
+    image: combo3 || notAvailableImage,
+  }
 ];
 
 export default featuredItems;

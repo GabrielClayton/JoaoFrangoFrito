@@ -8,7 +8,7 @@ function Home() {
         <div className="hero-text">
           <p>Os melhores frangos fritos para delivery</p>
           <p>Aproveite nossas opções</p>
-          <p>Ofertas especiais a partir de R$99,99</p>
+          <p>Ofertas especiais no combo que cabe no seu dia!</p>
           <Link to="/cardapio" className="button-link">
             Ver Cardápio
           </Link>
@@ -22,7 +22,8 @@ function Home() {
             <article key={item.name} className="featured-card">
               <img src={item.image} alt={item.name} />
               <h4>{item.name}</h4>
-              <p>{item.price}</p>
+              <p>{item.description}</p>
+              {/* <p>{item.price}</p> */}
             </article>
           ))}
         </div>

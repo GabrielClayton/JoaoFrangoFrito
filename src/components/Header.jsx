@@ -15,7 +15,6 @@ function Header() {
               Home
             </NavLink>
             <NavLink to="/cardapio">Cardápio</NavLink>
-            <NavLink to="/sobre">Sobre Nós</NavLink>
             <NavLink to="/fale-conosco">Fale Conosco</NavLink>
           </nav>
         </div>

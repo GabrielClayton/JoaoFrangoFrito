@@ -1,37 +1,28 @@
-import frango1 from '../assets/frango1.jpg';
+import combo1 from '../assets/combo1.png';
+import combo2 from '../assets/combo2.png';
+import combo3 from '../assets/combo3.png';
 import notAvailableImage from '../assets/no_image_available.jpg';
+
 
 const menuItems = [
   {
-    name: 'Combo Tradicional',
-    price: 'R$ 99,99',
-    description: 'Meio frango crocante, batata rústica e refrigerante 500ml.',
-    images: [frango1],
+    name: 'Combo Individual',
+    description: `500g de frango crocante; Porção P de batata frita; Molho e refrigerante de 350ml.`,
+    price: 'R$ ??,??',
+    images: [combo1 || notAvailableImage],
   },
   {
-    name: 'Porção Crocante',
-    price: 'R$ 79,99',
-    description: 'Oito coxinhas empanadas com molho especial da casa.',
-    images: [notAvailableImage],
-  },
-  {
-    name: 'Asas Apimentadas',
-    price: 'R$ 69,99',
-    description: 'Asinhas douradas com tempero picante e acompanhamento de molho.',
-    images: [notAvailableImage],
+    name: 'Combo Casal',
+    description: '1kg de frango crocante; Porção M de batata frita; 2 Molhos e 1 Bebida grande.',
+    price: 'R$ ??,??',
+    images: [combo2 || notAvailableImage],
   },
   {
     name: 'Combo Família',
-    price: 'R$ 139,99',
-    description: 'Dois frangos inteiros, dois acompanhamentos e refrigerante 1L.',
-    images: [notAvailableImage],
-  },
-  {
-    name: 'Frango Sem Osso',
-    price: 'R$ 84,99',
-    description: 'Pedaços sem osso e super crocantes, perfeitos para compartilhar.',
-    images: [notAvailableImage],
-  },
+    description: '1,5kg de frango crocante; Porção G de batata frita; 4 Molhos e 1 Bebidas grandes.',
+    price: 'R$ ??,??',
+    images: [combo3 || notAvailableImage],
+  }
 ];
 
 export default menuItems;

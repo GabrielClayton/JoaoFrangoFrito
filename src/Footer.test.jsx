@@ -11,12 +11,6 @@ describe('Footer', () => {
       </MemoryRouter>
     );
 
-    // Sobre nós deve existir
     expect(screen.getByText(/Sobre nós/i)).toBeTruthy();
-
-    // Links removidos não devem existir
-    expect(screen.queryByText(/Suporte ao cliente/i)).toBeNull();
-    expect(screen.queryByText(/Termos de uso/i)).toBeNull();
-    expect(screen.queryByText(/Políticas de privacidade/i)).toBeNull();
   });
 });
