@@ -6,9 +6,11 @@ Aplicação front-end em React + Vite para o restaurante João Frango Frito.
 
 1. Instale as dependências:
    npm install
-2. Inicie o projeto:
+2. Builde o projeto:
+   npm run build
+3. Inicie o projeto:
    npm run dev
-3. Acesse a URL exibida pelo Vite (normalmente http://localhost:4173)
+4. Acesse a URL exibida pelo Vite (normalmente http://localhost:4173)
 
 ## Estrutura principal
 
