@@ -10,7 +10,7 @@ function Footer() {
         <nav className="footer-nav">
           <Link to="/sobre">Sobre nós</Link>
         </nav>
-        <p>&copy; 2026-27 João Frango Frito. Todos os direitos reservados</p>
+        <p>| &copy; 2026-27 João Frango Frito | Todos os direitos reservados | Desenvolvido por gabriel.clayton.lima@gmail.com</p>
         </div>
       </div>
     </footer>
