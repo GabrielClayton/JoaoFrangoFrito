@@ -6,7 +6,7 @@ function Home() {
     <section className="home-page">
       <section className="hero-banner">
         <div className="hero-text">
-          <p>Os melhores frangos fritos para delivery</p>
+          <p>Os melhores frangos fritos para delivery!</p>
           <p>Aproveite nossas opções</p>
           <p>Ofertas especiais no combo que cabe no seu dia!</p>
           <Link to="/cardapio" className="button-link">

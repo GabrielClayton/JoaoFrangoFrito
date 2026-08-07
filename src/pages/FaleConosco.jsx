@@ -1,12 +1,12 @@
 function FaleConosco() {
   function openWhatsApp() {
     const mensagem = 'Olá! Gostaria de fazer um pedido e receber mais informações.';
-    const url = `https://wa.me/5511985903147?text=${encodeURIComponent(mensagem)}`;
+    const url = `https://wa.me/5511980796307?text=${encodeURIComponent(mensagem)}`;
     window.location.href = url;
   }
 
   function openEmail() {
-    const email = 'gabriel.clayton.lima@gmail.com';
+    const email = 'luizpinheiro2silva@gmail.com';
     const subject = 'Contato pelo site Joao Frango Frito';
     const body = 'Olá,\nGostaria de entrar em contato para solicitar um delivery e/ou pedir informações.';
     const url = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -39,15 +39,17 @@ function FaleConosco() {
           </div>
           <div>
             <h3>WhatsApp</h3>
-            <p>+55 11 9 8590-3147</p>
+            <p>+55 11 9 8079-6307</p>
           </div>
           <div>
             <h3>E-mail</h3>
-            <p>gabriel.clayton.lima@gmail.com</p>
+            <p>luizpinheiro2silva@gmail.com</p>
           </div>
           <div>
-            <h3>Delivery</h3>
-            <p>Peça pelos apps de entrega mais populares.</p>
+            <h3>Delivery / Endereço</h3>
+            <p>Peça pelos apps de entrega mais populares!</p>
+            <p>ENTREGA GRÁTIS em todas as encomendas!</p>
+            <p>Rua Salvador Fernandes Cardia, 927 - Vila Mara - São Paulo/SP.</p>
           </div>
         </div>
       </div>
