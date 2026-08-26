@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import featuredItems from '../data/featuredItems';
+import menuItems from '../data/menuItems';
 
 function Home() {
   return (
@@ -18,13 +18,15 @@ function Home() {
       <section className="destaque">
         <h3>Mais pedidos</h3>
         <div className="featured-grid">
-          {featuredItems.map((item) => (
-            <article key={item.name} className="featured-card">
-              <img src={item.image} alt={item.name} />
-              <h4>{item.name}</h4>
-              <p>{item.description}</p>
-              {/* <p>{item.price}</p> */}
-            </article>
+          {menuItems.slice(0, 3).map((item) => (
+            <Link key={item.name} to="/cardapio" className="featured-link">
+              <article className="featured-card">
+                <img src={item.images[0]} alt={item.name} />
+                <h4>{item.name}</h4>
+                <p>{item.slogan}</p>
+                <p>{item.price}</p>
+              </article>
+            </Link>
           ))}
         </div>
       </section>
