@@ -31,7 +31,7 @@ function Cardapio() {
         if (item.isByWeight) {
           return currentCart.map((cartItem) =>
             cartItem.name === item.name
-              ? { ...cartItem, weight: Number(cartItem.weight || 0) + 0.5 }
+              ? { ...cartItem, weight: Number(cartItem.weight || 0) + 1 }
               : cartItem,
           );
         }
@@ -42,7 +42,7 @@ function Cardapio() {
       }
 
       if (item.isByWeight) {
-        return [...currentCart, { ...item, weight: 0.5, quantity: 1 }];
+        return [...currentCart, { ...item, weight: 1, quantity: 1 }];
       }
 
       return [...currentCart, { ...item, quantity: 1 }];
