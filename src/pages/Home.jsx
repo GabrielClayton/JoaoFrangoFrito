@@ -42,7 +42,7 @@ function Home() {
                 <img src={item.images[0]} alt={item.name} />
                 <h4>{item.name}</h4>
                 <p>{item.slogan}</p>
-                <p>{item.price}</p>
+                <p>R$ {item.price.toFixed(2).replace('.', ',')}</p>
               </article>
             </Link>
           ))}
